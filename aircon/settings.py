@@ -19,7 +19,7 @@ import os
 # load_dotenv()
 # from dotenv import load_dotenv
 # load_dotenv()
-import django_heroku
+# import django_heroku
 from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -158,4 +158,4 @@ MESSAGE_TAGS = {
     messages.ERROR: 'alert-danger',
 }
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
