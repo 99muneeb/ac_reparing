@@ -19,7 +19,7 @@ class Team(models.Model):
     facebook = models.URLField(max_length=255)
     twitter = models.URLField(max_length=255)
     Intstagram = models.URLField(max_length=255)
-    date = models.DateTimeField(auto_now_add=True, null=True)
+    date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.name
